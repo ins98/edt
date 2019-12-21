@@ -1,0 +1,60 @@
+body{
+	/*background-image: url(bg4.jpg);*/
+  background:    #fff2cc;
+	height: 100%;
+	overflow: auto;
+}
+
+button{
+	font-size: 20px;
+	background:transparent;  
+	color: #ff3300 ;
+	border: none;
+
+}
+ul{
+	position: absolute;
+}
+.nav ul {
+  
+  list-style-type: none;
+  margin-top: 120px ;
+  margin-left: -60px;
+  padding: 15px ;
+  width: 220px;
+  font-size: 16px;
+  position: absolute;
+  height: auto;
+
+
+
+ 
+  
+}
+.nav li {
+	margin: 15px ;
+  padding: 10px ;
+  list-style-type: none;
+ margin-top:-20px; 
+  height:auto;
+  overflow: auto;
+}
+.nav li a {
+	display: block;
+  color: #f15a22 ;
+  text-align: center;
+/*background-image: url(45.jpg);*/
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+.nav li a:hover {
+    background: transparent;
+   font-size: 25px;
+  border-radius: 16px;
+}
+hr{
+  color: #f15a22;
+}
+

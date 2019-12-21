@@ -1,0 +1,82 @@
+.table{
+	padding: 20px;
+	margin:20px;
+    margin-left: 200px;
+    height: auto;
+    font-size:20px;
+    color: #4d0000;  
+    
+
+}
+input{
+  display: inline;
+}
+input[type="submit"] {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+input[type="text"] {
+}
+input[type="time"] {    /*   c bn   */
+  /*background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+ */ border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+input[type="time"]:focus {    /*   c bn */
+  box-shadow: 0 0 4px 1px #f15a22;
+  outline: 0;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 20px;
+  width: 60px;
+  
+}
+input[type="checkbox"]:checked {
+  left: 19px;
+  width: 58px;
+}
+
+.mat{
+padding: 20px;
+	margin:20px;
+    margin-left: 200px;
+    height: auto;
+    font-size:20px;
+    color: #ff6600;  
+
+}
+.bu{
+   
+  color: #ff5050 ;
+  text-align: center;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 85%;
+  border:2px solid #ff5050 ;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+ 
+}
+
+tr:nth-child(even){background-color:#ffcc99 }
+
+th {
+  background-color:#ff9966;
+  color: #cc3300;
+}

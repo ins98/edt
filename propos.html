@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>A propos</title>
+    <link rel="icon" type="image/png" href="l.ico">
+	</head>
+
+	<body style="background-image:url(45.jpg); background-attachment: fixed;">
+	
+	   <a href="index.php"> <img src="l.png" height="150px" width="150px"  ></a>
+      
+      <ul> 
+     	<big>
+          <li style="float:right"><a class="active" href="contact.php">Contact</a></li>
+          <li style="float:right"><a class="active" href="propos.html">A propos</a></li>
+          <li style="float:right"><a class="active" href="aide.html">Aide</a></li>
+          <li style="float:right"><a class="active" href="index.php">Acceuil</a></li> 
+       </big>
+      </ul>
+          <h1 style="color: #f15a22;text-align:center; text-shadow: 0px 0px 4px #ff0000;position:absolute;bottom:80%;right:45%;">A propos de <br>E D T </h1>
+    
+          <img src="Capture2.PNG" height="300px" width="600px" style="position:absolute;bottom:30%;right:13%">
+          <canvas id ="mycanvas" width="500" height="200" style="border: 1px solid #000000; position:absolute;bottom:15%;right:52%;background-color:#737373;"></canvas>
+      <script>
+    	var c = document.getElementById('mycanvas');
+        var ctx = c.getContext("2d");
+        ctx.font = "16px Arial";
+        ctx.fillText("EDT est une application web qui sert a géré des emplois du temps",10,50);
+        ctx.fillText("universitaire et consulté les plannings déjà généré,",10,80);
+        ctx.fillText("cette application est  Cible spécialement aux responsables de la ",10,110);
+        ctx.fillText("création d'emploi du temps universitaire et leurs étudiants et",10,140);
+        ctx.fillText("enseignants.",10,170);
+        var ct = c.getContext("2d");
+        ct.font = "24px Arial";
+        ct.strokeText("Présentation :",190,22);
+     </script>
+
+      <img src="emploi.PNG" height="300px" width="600px" style="position:absolute;top:90%;left:10%">
+      <canvas id ="mycan" width="500" height="190" style="border: 1px solid #000000; position:absolute;top:120%;left:45%;background-color:#737373;"></canvas>
+      <script>
+    	var d = document.getElementById('mycan');
+        var k = d.getContext("2d");
+        k.font = "16px Arial";
+        k.fillText("Presque toutes les universités algériennes générées leur emploi du ",10,50);
+        k.fillText("temps semestriel manuellement et ça prend beaucoup de stresse",10,80);
+        k.fillText("et beaucoup de concentration et surtout beaucoup du temps,ces ",10,110);
+        k.fillText("raison nous a poussé a créé cette application qui généré les",10,140);
+        k.fillText("facilement rapidement et dynamiquement.",10,170);
+        var ct = d.getContext("2d");
+        ct.font = "24px Arial";
+        ct.strokeText("Raison de création :",150,22);
+      </script>
+    </body>
+
+  <footer style=" position: absolute; left: 0;top:150%; width: 100%; height: 100px;background-color:transparent;color: white;text-align: center;font-size:    25px;">
+   
+    <br>  
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <br>
+   copyright 2019 &copy; all right.
+ </footer>
+
+
+</html>

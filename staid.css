@@ -1,0 +1,54 @@
+* { /* margin and padding prblm*/
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+.container{
+	width: 1200px;
+	  background: #F36363;
+	margin: auto;
+ }
+.navbar{
+	background-color:;
+    overflow: hidden;
+    
+}
+.navbar .logo{
+	float: left;
+	width: 70%
+}
+
+.navbar .link{
+	float: left;
+	width: 30%;
+	margin-top:60px; 
+
+}
+.navbar .link li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 15px;
+	border-bottom: 2px solid transparent ;
+	 
+}
+.navbar .link li .active , .navbar .link li .active:hover{
+color: #f15a22;
+border-bottom: 2px solid #f15a22; 
+
+
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+li a .active:hover {
+	border-bottom: 2px solid #f15a22; 
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 5px ;
+    color: #f15a22;
+
+}
